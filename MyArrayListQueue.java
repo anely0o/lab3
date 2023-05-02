@@ -26,6 +26,9 @@ public class MyArrayListQueue<T> {
         return list.isEmpty();
     }
 
+    public int size(){
+        return list.size();
+    }
 
 
 }
