@@ -24,7 +24,8 @@ public class MyArrayListStack {
     }
 
     /**
-     *
+     * removes and returns the top element from the stack;
+     * throws an EmptyStackException if the stack is empty
      * @return
      */
 
