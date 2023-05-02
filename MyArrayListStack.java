@@ -11,6 +11,9 @@ public class MyArrayListStack {
     public int pop(){
         if(isEmpty()){
             throw new EmptyStackException();
+        }
+        return list.remove(list.size() - 1);
+    }
 
 
 }
