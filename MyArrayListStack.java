@@ -8,6 +8,9 @@ public class MyArrayListStack {
         list.add(value);
     }
 
+    public int pop(){
+        if(isEmpty()){
+            throw new EmptyStackException();
 
 
 }
