@@ -9,6 +9,9 @@ public class MyArrayListQueue<T> {
     public void enqueue(T value){
         list.add(value);
     }
+    public T dequeue(){
+        if(list.isEmpty()){
+            throw new NoSuchElementException();
 
 
 }
