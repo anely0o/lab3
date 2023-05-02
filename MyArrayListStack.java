@@ -18,5 +18,8 @@ public class MyArrayListStack {
     public int peek(){
         if(isEmpty()){
             throw new EmptyStackException();
+            public int peek(){
+                if(isEmpty()){
+                    throw new EmptyStackException();
 
 }
