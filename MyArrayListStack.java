@@ -21,5 +21,8 @@ public class MyArrayListStack {
             public int peek(){
                 if(isEmpty()){
                     throw new EmptyStackException();
+                    public boolean isEmpty(){
+                        return list.size() == 0;
+                    }
 
 }
