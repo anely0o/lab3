@@ -25,8 +25,9 @@ public class MyArrayListStack {
 
     /**
      * removes and returns the top element from the stack;
-     * throws an EmptyStackException if the stack is empty
-     * @return
+     * throws an EmptyStackException if the stack is empty;
+     * @return the top element of the stack;
+     * @throws EmptyStackException if the stack is empty
      */
 
     public int pop() {
