@@ -39,7 +39,8 @@ public class MyArrayListStack {
 
     /**
      *
-     * @return
+     * @return the top element of the stack
+     * @throws EmptyStackException if the stack is empty
      */
 
     public int peek() {
