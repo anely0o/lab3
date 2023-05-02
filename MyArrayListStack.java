@@ -6,6 +6,10 @@ import java.util.EmptyStackException;
  */
 public class MyArrayListStack {
     private MyArrayList<Integer> list;
+
+    /**
+     * constructs an empty stack
+     */
     public MyArrayListStack() {
         list = new MyArrayList<>();
     }
