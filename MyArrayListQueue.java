@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
-public class MyArrayListQueue {
+public class MyArrayListQueue<T> {
 
 }
