@@ -15,5 +15,8 @@ public class MyArrayListStack {
         return list.remove(list.size() - 1);
     }
 
+    public int peek(){
+        if(isEmpty()){
+            throw new EmptyStackException();
 
 }
