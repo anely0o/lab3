@@ -16,7 +16,7 @@ public class MyArrayListStack {
 
     /**
      *
-     * @param value
+     * @param value the value to be pushed onto the stack
      */
 
     public void push(int value) {
