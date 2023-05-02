@@ -4,6 +4,10 @@ public class MyArrayListStack {
     public myArrayListStack(){
         list = new myArrayList<>();
     }
+    public void push(int value){
+        list.add(value);
+    }
+
 
 
 }
