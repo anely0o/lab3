@@ -3,8 +3,11 @@ import java.util.NoSuchElementException;
 
 public class MyArrayListQueue<T> {
     private ArrayList<T> list;
-    public myArrayListQueue(){
+    public MyArrayListQueue(){
         list = new ArrayList<T>();
+    }
+    public void enqueue(T value){
+        list.add(value);
     }
 
 
